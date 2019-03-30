@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\WeChatAssistant-1.2\WeChatAssistant-1.2\main.py", line 77, in wapper
+    func()
+  File "C:\Users\Administrator\Desktop\WeChatAssistant-1.2\WeChatAssistant-1.2\main.py", line 99, in execute_func
+    exec_command.Execution(msglist[0])
+  File "C:\Users\Administrator\Desktop\WeChatAssistant-1.2\WeChatAssistant-1.2\execution.py", line 90, in Execution
+    keyword, content = re.search("^添加自动回复#(.*?):(.*?)#$", command).group(1, 2)
+AttributeError: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\WeChatAssistant-1.2\WeChatAssistant-1.2\main.py", line 77, in wapper
+    func()
+  File "C:\Users\Administrator\Desktop\WeChatAssistant-1.2\WeChatAssistant-1.2\main.py", line 99, in execute_func
+    exec_command.Execution(msglist[0])
+  File "C:\Users\Administrator\Desktop\WeChatAssistant-1.2\WeChatAssistant-1.2\execution.py", line 90, in Execution
+    keyword, content = re.search("^添加自动回复#(.*?):(.*?)#$", command).group(1, 2)
+AttributeError: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\WeChatAssistant-1.2\WeChatAssistant-1.2\main.py", line 77, in wapper
+    func()
+  File "C:\Users\Administrator\Desktop\WeChatAssistant-1.2\WeChatAssistant-1.2\main.py", line 99, in execute_func
+    exec_command.Execution(msglist[0])
+  File "C:\Users\Administrator\Desktop\WeChatAssistant-1.2\WeChatAssistant-1.2\execution.py", line 90, in Execution
+    keyword, content = re.search("^添加自动回复#(.*?):(.*?)#$", command).group(1, 2)
+AttributeError: 'NoneType' object has no attribute 'group'
